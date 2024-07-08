@@ -14,8 +14,9 @@ export default function NhanSuLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <div>
+      <h1>Nhân Sự</h1>
+      {children}
+    </div>
   );
 }
